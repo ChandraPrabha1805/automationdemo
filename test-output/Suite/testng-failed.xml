@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="com.actitime.tests.VerifyBuildNumTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="testVerifyBuildNum"/>
+        </methods>
+      </class> <!-- com.actitime.tests.VerifyBuildNumTest -->
+      <class name="com.actitime.tests.VerifyVersionTesst">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="testVerifyVersion"/>
+        </methods>
+      </class> <!-- com.actitime.tests.VerifyVersionTesst -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

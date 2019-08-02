@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 22 21:03:42 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>91 seconds (91704 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.actitime.tests.InvalidLoginTest.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: com.actitime.tests.InvalidLoginTest<br/>
+<a href="#Output-11122630" onClick='toggleBox("Output-11122630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11122630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11122630">
+Title is matching: actiTIME - Login<br/>
+InValid usernamme:admin<br/>
+InValid password:danager<br/>
+element is present<br/>
+Actual Erroe msg:Username or Password is invalid. Please try again.<br/>
+expexted erroe Msg:Username or Password is invalid. Please try again.<br/>
+Error msg matching:<br/>
+===================================<br/>
+InValid usernamme:prabha<br/>
+InValid password:manager<br/>
+element is present<br/>
+Actual Erroe msg:Username or Password is invalid. Please try again.<br/>
+expexted erroe Msg:Username or Password is invalid. Please try again.<br/>
+Error msg matching:<br/>
+===================================<br/>
+InValid usernamme:jspiders<br/>
+InValid password:qspieder<br/>
+element is present<br/>
+Actual Erroe msg:Username or Password is invalid. Please try again.<br/>
+expexted erroe Msg:Username or Password is invalid. Please try again.<br/>
+Error msg matching:<br/>
+===================================<br/>
+InValid usernamme:<br/>
+InValid password:manager<br/>
+element is present<br/>
+Actual Erroe msg:Username or Password is invalid. Please try again.<br/>
+expexted erroe Msg:Username or Password is invalid. Please try again.<br/>
+Error msg matching:<br/>
+===================================<br/>
+InValid usernamme:admin<br/>
+InValid password:<br/>
+element is present<br/>
+Actual Erroe msg:Username or Password is invalid. Please try again.<br/>
+expexted erroe Msg:Username or Password is invalid. Please try again.<br/>
+Error msg matching:<br/>
+===================================<br/>
+InValid usernamme:@<br/>
+InValid password:$<br/>
+element is present<br/>
+Actual Erroe msg:Username or Password is invalid. Please try again.<br/>
+expexted erroe Msg:Username or Password is invalid. Please try again.<br/>
+Error msg matching:<br/>
+===================================<br/>
+InValid usernamme:1<br/>
+InValid password:2<br/>
+element is present<br/>
+Actual Erroe msg:Username or Password is invalid. Please try again.<br/>
+expexted erroe Msg:Username or Password is invalid. Please try again.<br/>
+Error msg matching:<br/>
+===================================<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.actitime.tests.InvalidLoginTest@6fa38a</td></tr>
+<tr>
+<td title='com.actitime.tests.ValidLoginLogoutTest.testValidLoginLogout()'><b>testValidLoginLogout</b><br>Test class: com.actitime.tests.ValidLoginLogoutTest<br/>
+<a href="#Output-5159843" onClick='toggleBox("Output-5159843", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5159843" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5159843">
+Title is matching: actiTIME - Login<br/>
+Valid usernamme:admin<br/>
+Valid password:manager<br/>
+Title is matching: actiTIME - Enter Time-Track<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.actitime.tests.ValidLoginLogoutTest@1caeb3e</td></tr>
+<tr>
+<td title='com.actitime.tests.VerifyBuildNumTest.testVerifyBuildNum()'><b>testVerifyBuildNum</b><br>Test class: com.actitime.tests.VerifyBuildNumTest<br/>
+<a href="#Output-16036262" onClick='toggleBox("Output-16036262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16036262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16036262">
+Title is matching: actiTIME - Login<br/>
+Valid usernamme:admin<br/>
+Valid password:manager<br/>
+Title is matching: actiTIME - Enter Time-Track<br/>
+element is present<br/>
+Actual Build Num:(build 997_55)<br/>
+Expected Build Num:(build 997_55)<br/>
+Build Num is matching:<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.actitime.tests.VerifyBuildNumTest@1e88b3c</td></tr>
+<tr>
+<td title='com.actitime.tests.VerifyVersionTesst.testVerifyVersion()'><b>testVerifyVersion</b><br>Test class: com.actitime.tests.VerifyVersionTesst<br/>
+<a href="#Output-802497" onClick='toggleBox("Output-802497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-802497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-802497">
+Title is matching: actiTIME - Login<br/>
+element is present<br/>
+Actual Version:actiTIME 2019.2 Pro<br/>
+Expected Version:actiTIME 2019.2 Pro<br/>
+Version is matching:<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.actitime.tests.VerifyVersionTesst@a3ffec</td></tr>
+</table><p>
+</body>
+</html>
